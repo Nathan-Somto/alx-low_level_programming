@@ -1,7 +1,7 @@
 # include "main.h"
 /**
  *  main - where the program start
- *  Return : 0
+ *  Return: returns 0
 */
 int main(void)
 {
