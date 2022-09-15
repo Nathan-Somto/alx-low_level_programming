@@ -1,6 +1,6 @@
 # include "main.h"
-/** 
- * print_line - prints lines 
+/**
+ * print_line - prints lines
  * according to input
  * @n: line length
  * Return: does not return anything
@@ -11,7 +11,7 @@ void print_line(int n)
 
 	if (n > 0)
 	{
-		for (i = 0; i <= n; i++)
+		for (i = 0; i < n; i++)
 		{
 			_putchar('_');
 		}
