@@ -24,17 +24,16 @@ void puts_half(char *str)
 		for (i = even;  i < count; i++)
 		{
 			printf("%c", str[i]);
-			printf("\n");
 		}
-
+		printf("\n");
 	}
 	else
 	{
 		for (i = odd; i < count; i++)
 		{
 			printf("%c", str[i]);
-			printf("\n");
 		}
+		printf("\n");
 	}
 
 
