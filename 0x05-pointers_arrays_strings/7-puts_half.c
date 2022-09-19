@@ -23,7 +23,7 @@ void puts_half(char *str)
 	{
 		for (i = even;  i < count; i++)
 		{
-			printf("%c", *(str + i));
+			printf("%c", str[i]);
 			printf("\n");
 		}
 
@@ -32,7 +32,7 @@ void puts_half(char *str)
 	{
 		for (i = odd; i < count; i++)
 		{
-			printf("%c", *(str + i));
+			printf("%c", str[i]);
 			printf("\n");
 		}
 	}
