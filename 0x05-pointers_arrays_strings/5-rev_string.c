@@ -7,8 +7,10 @@
 void rev_string(char *s)
 {
 	int i;
-	char tmp[];
+	char *tmp;
 	int j;
+	tmp = (char*)malloc(1000 * sizeof(char));
+
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
