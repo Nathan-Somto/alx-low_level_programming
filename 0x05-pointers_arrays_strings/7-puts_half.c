@@ -7,14 +7,18 @@
 void puts_half(char *str)
 {
 	int count;
-	int odd = (count + 1) / 2;
-	int even = count / 2;
+	int odd;
+	int even;
 	int i;
 
 	for (count = 0;  *str != '\0'; str++)
 	{
 		count++;
 	}
+
+	even = count / 2;
+	odd = (count + 1) / 2;
+
 	if (count % 2 == 0)
 	{
 		for (i = even;  i < count; i++)
