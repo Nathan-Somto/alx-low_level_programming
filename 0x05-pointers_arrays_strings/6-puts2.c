@@ -8,7 +8,7 @@ void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; *str != '\0'; *str++)
+	for (i = 0; *str != '\0'; str++)
 	{
 		printf("%c", str[i]);
 		i += 2;
