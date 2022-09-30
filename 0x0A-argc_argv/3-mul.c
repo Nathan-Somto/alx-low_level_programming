@@ -8,21 +8,12 @@
 */
 int main(int argc, char **argv)
 {
-	int product = 1;
-	int i;
-	int value;
-
-	for (i = 1; i <= 2; i++)
+	if (argc <= 3)
 	{
-		if (argv[i] == '\0')
-		{
-			printf("Error\n");
-			return (1);
-		}
-		value = atoi(argv[i]);
-		product *= value;
+		printf("Error\n");
+		return (1);
 	}
-	printf("%d\n", product);
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 
 }
